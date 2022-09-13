@@ -13,19 +13,19 @@ class CompanyDemo
 }
       public static void main(String[] args)
 	{
-		Employee e1=new Employee();
-		Employee e2=new Employee();
+		Employee a1=new Employee();
+		Employee a2=new Employee();
 		
-        e1.id=1;
-		e1.name="Akash";
-		e1.email="Akash@gmail.com";
+        a1.id=1;
+		a1.name="Akash";
+		a1.email="Akash@gmail.com";
          
-		e2.id=2;
-		e2.name="Abhi";
-		e2.email="Abhi@gmail.com";
+		a2.id=2;
+		a2.name="Abhi";
+		a2.email="Abhi@gmail.com";
 		
-		e1.displayData();
-		e2.displayData();
+		a1.displayData();
+		a2.displayData();
 		
 		System.out.println();
 	}
