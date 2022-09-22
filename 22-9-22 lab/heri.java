@@ -1,16 +1,13 @@
-
-class A {
-
-
 // Write program to implement multilevel as well as Hierarchical inheritance in a same program.	
-   
-public void set()
+   class A
+{
+public void method()
 {
 	System.out.println("Name of students of class A");
 }
 }
 //syntax of creating a new class
-class K extends A
+class B extends A
 {
 	public void get()
 	{
@@ -25,23 +22,23 @@ class C extends A
 		System.out.println("Name of student of class C");	
 	}
 }
+class D extends A
+{
+public void get()
+{
+System.out.println("Name of student of class D");	
+	}
+}
 
 class HerachicalIn
 {
 	public static void main(String args[])
 	{
-		A a1 = new A();
-	System.out.println("Using object of class A");
-	a1.set();
-	K b1 = new K();
-	System.out.println("Using object of class B");
-	b1.set();
-	b1.get();
-	C c1 = new C();
-	System.out.println("Using object of class C");
-	c1.set();
-	c1.check();
-	
-	
+		B a1 = new B();
+	C b2 = new C();
+D c2 = new D();
+a1.method();
+b2.method();
+c2.method();	
 	}
 }
