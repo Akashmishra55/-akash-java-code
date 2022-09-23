@@ -3,7 +3,7 @@
 {
 public void method()
 {
-	System.out.println("Name of students of class A");
+	System.out.println("This is method of class A");
 }
 }
 //syntax of creating a new class
@@ -11,7 +11,7 @@ class B extends A
 {
 	public void get()
 	{
-		System.out.println("Name of student of class B");
+		System.out.println("This is get of class B");
 		
 	}
 }
@@ -19,14 +19,14 @@ class C extends A
 {
 	public void check()
 	{
-		System.out.println("Name of student of class C");	
+		System.out.println("This is check of class C");	
 	}
 }
 class D extends A
 {
 public void get()
 {
-System.out.println("Name of student of class D");	
+System.out.println("This is get of class D");	
 	}
 }
 
